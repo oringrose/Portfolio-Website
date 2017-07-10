@@ -1,0 +1,145 @@
+body {
+margin:0;
+padding:0;
+background-color: #e2e2e2;
+}
+
+.container {
+margin: 0 auto;
+padding:0;
+}
+
+#main-header {
+background-image:url("devon-hill.jpg");
+background-repeat: no-repeat;
+height:950px;
+width:100%;
+
+}
+
+nav {
+
+}
+
+.nav-ul {
+margin:0;
+padding:0;
+display:flex;
+flex-direction: row;
+justify-content: flex-end;
+flex-wrap: wrap;
+}
+
+.nav-ul li {
+list-style-type: none;
+margin: 70px 50px;
+}
+
+.nav-link {
+text-decoration: none;
+color:black;
+font-size: 25px;
+font-family: 'Cairo', sans-serif;
+font-weight: 500;
+color: #2c2d2d;
+}
+
+.nav-link:hover {
+text-decoration: underline;
+}
+
+#title-container {
+display:flex;
+justify-content: center;
+margin-top:150px;
+}
+
+#main-title {
+font-family: 'Cairo', sans-serif;
+font-weight: 300;
+white-space: pre;
+line-height: 1.5em;
+color: #161616;
+text-align: left;
+letter-spacing: 3px;
+}
+
+#main-arrow-down {
+position:relative;
+height:31px;
+width:32px;
+top:180px;
+right:150px;
+}
+
+#main-arrow-down:hover {
+transform: scale(1.04);
+}
+
+
+#projects {
+display:flex;
+justify-content: center;
+flex-wrap: wrap;
+padding:0;
+}
+
+.project-container {
+border: 1px solid black;
+max-width: 350px;
+max-height:400px;
+margin: 20px 150px;
+
+
+}
+
+.project-subtitle {
+text-align: center;
+border-bottom:1px solid black;
+padding-bottom:10px;
+margin-bottom: 0;
+font-size: 25px;
+letter-spacing: 2px;
+}
+
+
+.project-li {
+list-style-type: none;
+}
+
+.project-link {
+text-decoration: none;
+}
+
+.project-img {
+width:350px;
+height:275px;
+border-bottom: 1px solid black;
+background-image: url("bg-focused.png");
+background-size: 450px 450px;
+background-repeat: no-repeat;
+
+}
+
+.project-img:hover {
+box-shadow: inset 0 0 0 125px rgba(87, 149, 249, 0.6);
+
+
+}
+
+.project-desc {
+text-align: center;
+}
+
+
+@media (max-width:1350px) {
+  .project-container {
+    margin: 20px 50px;
+  }
+}
+
+@media (max-width:450px) {
+  .project-container {
+    margin: 20px 0px;
+  }
+}
